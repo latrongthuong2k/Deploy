@@ -19,7 +19,7 @@ services:
       MYSQL_DATABASE: ecommerce-db # Tự động tạo schema ecommerce_db
 
   springboot-app-ecommerce:
-    image: thuong191020/fullstack-app:v1.0.1
+    image: thuong191020/fullstack-app:latest
     container_name: springboot-app-ecommerce-container
     ports:
       - "8080:8080"
